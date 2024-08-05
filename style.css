@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+}
+.head{
+    display: flex;
+    flex-direction: row; 
+    position: fixed;
+    background-color: rgb(197, 170, 221);
+    width: 100%;
+    height: 98px;
+    top: 0;
+}
+h1{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    font-family: Roboto,Arial;
+    font-size: 25px;
+} 
+.left{
+    display: flex;
+    width: 850px;
+    align-items: center;
+    justify-content: space-between;
+}
+.tabs{
+    padding: 35px;
+    transition: background-color 0.9;
+    cursor: pointer;
+}
+.tabs:hover{
+    background-color: rgb(227, 219, 219);
+}
+.right{
+    display: flex;
+    flex:1;
+   align-items: center;
+   justify-content: end;
+   white-space: nowrap;
+   padding-right: 40px;
+ }
+ .signup:hover{
+    text-decoration: underline;
+    cursor: pointer;
+ }
+.main{
+    position:static;
+    margin-top: 95px;
+    height: 3000px;
+    width: 100%;
+    background-color: rgb(231, 192, 226);
+}
+.head-content{
+    font-family: Roboto,Arial;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 50px; 
+    text-align: center;
+    color: rgb(244, 52, 52);
+    text-decoration: underline;
+    padding-top: 40px;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 20px;
+    padding-left: 40px;
+}
+.box{
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 28px;
+    box-shadow: 10px 10px 10px grey;
+    background-color: rgb(244, 199, 239);
+}
+img{   
+    width: 600px; 
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+}
+.placename{
+    font-family: Roboto,Arial;
+    font-size: 20px;
+    padding-left: 25px;
+}
+p {
+    color: rgb(25, 12, 12);
+    font-size: 25px;
+    font-family: Roboto,Arial;
+    padding: 0px 28px 0px 28px; 
+    margin-top: -15px; 
+    line-height: 35px;
+}
