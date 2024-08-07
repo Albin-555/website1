@@ -47,12 +47,10 @@ a{
     cursor: pointer;
  }
 .main{
-    display :flex;
-    flex: 1;
     position:static;
     margin-top: 95px;
     height: 3000px;
-    width: 100%;
+    width: auto;
     background-color: rgb(231, 192, 226);
 }
 .head-content{
