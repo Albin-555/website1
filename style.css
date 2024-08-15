@@ -79,7 +79,7 @@ a{
     background-color: rgb(244, 199, 239);
 }
 img{   
-    width: 600px; 
+    width: 100%; 
     border-top-left-radius: 28px;
     border-top-right-radius: 28px;
 }
